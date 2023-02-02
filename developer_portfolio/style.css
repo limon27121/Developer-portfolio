@@ -1,0 +1,43 @@
+body {
+  font-family: "Nerko One", cursive;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 85px;
+}
+#orange {
+  color: orange;
+}
+#violent {
+  text-align: left;
+  color: blueviolet;
+}
+
+section {
+  display: flex;
+}
+
+.half {
+  width: 50%;
+  padding-left: 2%;
+}
+
+.para {
+  font-size: larger;
+  font-weight: 300;
+}
+
+.half img {
+  width: 80%;
+  padding-top: 5%;
+}
+
+.hire {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: black;
+  padding: 10px 30px;
+  border-radius: 5cm;
+}
