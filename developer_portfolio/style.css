@@ -1,6 +1,8 @@
 body {
   font-family: "Nerko One", cursive;
   font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
   font-size: 85px;
@@ -30,6 +32,10 @@ section {
 .half img {
   width: 80%;
   padding-top: 5%;
+  border: 50cm;
+  /* border-radius: 8cm;
+  border-top-left-radius: 8cm;
+  border-top-right-radius: 8cm; */
 }
 
 .hire {
@@ -40,4 +46,33 @@ section {
   color: black;
   padding: 10px 30px;
   border-radius: 5cm;
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.middle img {
+  padding-left: 30px;
+  padding-top: 60px;
+  height: 50%;
+}
+
+.middle2 {
+  font-size: 40px;
+  padding-left: 3%;
+}
+.middle-para {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.middle-banner {
+  display: flex;
+  margin-bottom: 150px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 5px;
 }
